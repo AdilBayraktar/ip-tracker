@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Container = ({ children }) => {
-    return (
-        <div className='p-10 my-5 min-h-[100vh]'>
-            {children}
-        </div>
-    )
-}
+  return <div className="md:p-10 sm:p-5 my-5 min-h-[100vh]">{children}</div>;
+};
 
-export default Container
+export default Container;
